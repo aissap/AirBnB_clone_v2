@@ -1,5 +1,6 @@
-# models/place.py
-
+#!/usr/bin/python3
+'''
+'''
 from sqlalchemy import Table, Column, String, ForeignKey
 from sqlalchemy.orm import relationship
 from models.base_model import BaseModel, Base
