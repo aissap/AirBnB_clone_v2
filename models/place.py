@@ -1,8 +1,6 @@
 #!/usr/bin/python3
-'''
-'''
-from sqlalchemy import Table, Column, String, ForeignKey
 from sqlalchemy.orm import relationship
+from sqlalchemy import Column, String, ForeignKey, Integer, Float
 from models.base_model import BaseModel, Base
 
 place_amenity = Table(

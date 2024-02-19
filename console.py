@@ -1,3 +1,4 @@
+
 #!/usr/bin/python3
 """ Console Module """
 import cmd
@@ -224,7 +225,7 @@ class HBNBCommand(cmd.Cmd):
         """ Shows all objects, or all objects of a class"""
         print_list = []
 
-                count += 1
+        count += 1
         print(count)
 
     def help_count(self):

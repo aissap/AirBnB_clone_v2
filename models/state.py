@@ -1,11 +1,12 @@
 #!/usr/bin/python3
 from models.base_model import BaseModel, Base
-from models import storage
-from sqlalchemy import Column, String
-from sqlalchemy.orm import relationship
+from sqlalchemy import Column,  String
+import models
+import shlex
 
 
 class State(BaseModel, Base):
+    """State Class"""
     __tablename__ = "states"
     name = Column(String(128), nullable=False)
 
